@@ -1,0 +1,18 @@
+------------------ GIT COMMANDS BELOW : ------------------ 
+
+------------------ To create (init) & push into a git repository ------------------
+> git init
+> git add .
+> git commit -m "commit-msg"
+> git remote add origin <git repository path>
+> git push origin master
+
+If you face buffer error while pushing, use below command : 
+> git config --global http.version HTTP/1.1
+
+And then revert it back to : 
+> git config --global http.version HTTP/2
+
+If you face user issue while using git add . command (in another system)
+> git config --global --add safe.directory <system repository path with forward slashes>
+
